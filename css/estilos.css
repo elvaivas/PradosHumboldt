@@ -1,0 +1,268 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    color: #ffffff;
+    display: flexbox;
+    padding-top: 3px;
+    margin-left: 16px;
+    margin-right: 0em;
+    padding-bottom: 145px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: 'roboto';
+    background: url('../img/portada.jpg') no-repeat center center/cover;
+    
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 10px;
+}
+.contenedor{
+    width: 100%;
+    /* padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0em; */
+      
+}
+
+/* Header */
+
+header{
+    background: hsla(210, 9%, 22%, 0.76);
+    width: 100%;
+    height: 100%;
+    padding: 0em;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    box-shadow: 0px 0px 80px 0px rgb(51, 68, 68);
+}
+
+
+
+.titulo{
+    font-size: 18px;
+}
+
+.navegacion{
+    margin-left: 11%;    
+}
+
+.burguer{
+    
+    color: white;
+}
+
+.nav-cubos{
+    height: 73px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.nav-cubo>a{
+    color: cornsilk;
+}
+
+.nav-cubo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    height: 90px;
+    width: 85px;
+}
+
+.nav-cubo:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    height: 90px;
+    width: 85px;
+    background: rgba(144, 161, 148, 0.233);
+    border: 1px solid #0000003a;
+}
+
+.nav-cubito{
+    /* background: hsla(210, 9%, 22%, 0.76); */
+    background: rgba(144, 161, 148, 0.233);
+    color: white;
+}
+
+.nav-cubito:hover{
+    background: hsla(210, 9%, 22%, 0.76);
+    /* background: rgba(144, 161, 148, 0.233); */
+    color: white;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.logo>i{
+    font-size: 40px;
+}
+
+/* SIDEBAR 1 PARTE 1 */
+
+.sidebar1>.img-sidebar1-1{
+    text-align: center;
+    margin-bottom: 20px;
+    height: 250px;
+    background: url('../img/perros.jpg') center center/cover;
+}
+
+.sidebar1>.img-sidebar1-1>p{
+    margin-top: 60%;
+}
+
+.sidebar1>.img-sidebar1-2{
+    text-align: center;
+    height: 250px;
+    background: url('../img/palomas.jpg') center center/cover;
+}
+
+.sidebar1>.img-sidebar1-2>p{
+    font-size: 13px;
+    margin-top: 20%;
+}
+
+
+
+
+/* Footer */
+
+/* .pie{
+    position: fixed;
+    left: 7px;
+    right: 7px;
+    bottom: 3px;
+} */
+
+
+footer {
+    /* background: #f2f2f2; */
+    background: hsla(210, 9%, 22%, 0.76);
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-right: 7px;
+    margin-left: 0;
+}
+
+.partFooter {
+    width: 20%;
+    text-align: center;
+}
+
+.partFooter>.img-footer {
+    display: inline-block;
+    width: 50%;
+    border: 1px solid black;
+}
+
+.partFooter>.text-footer {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.partFooter h4 {
+    color: #1d273d;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.partFooter a {
+    display: block;
+    text-decoration: none;
+    color: #5d6678;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.partFooter>a:hover {
+    color: #1fde82;
+    transition: color .3s ease-in-out;
+}
+
+.partFooter img {
+    width: 30%;
+}
+
+.partFooter>embed {
+    height: 30%;
+    width: 30%;
+    border-radius: 10%;
+    transition: ease-in-out 0.2s;
+}
+
+.partFooter>embed:hover {
+    height: 65%;
+    width: 80%;
+    border-radius: 50%;
+}
+
+
+.social-mendia>a {
+    display: inline-block;
+}
+
+.social-mendia i {
+    font-size: 20px;
+    display: inline-block;
+    color: #adb6c7;
+    border: 1px solid #adb6c7;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: center;
+    transition: all ease-in-out .4s;
+    margin-right: 5px;
+}
+
+.social-mendia i:hover {
+    color: #fff;
+    background-color: #1fde82;
+    border-color: #1fde82;
+}
+
+
+
+
+/* .contenedor>*{border: 1px solid #000;} */
+
+.principal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.aux{
+    text-align: center;
+    background: #00796b;
+}
+
+
+/* .sidebar1{background: #1976d2;} */
+.contenido{background: #000;}
+.sidebar2{background: #e64a19;}
+.footer{background: hsla(210, 9%, 22%, 0.76);}
+
+
+
